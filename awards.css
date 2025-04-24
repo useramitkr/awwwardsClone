@@ -1,0 +1,615 @@
+* {
+    margin: 0;
+    overflow: 0;
+}
+
+body, html {
+    overflow-x: hidden;
+    background-color: #F8F9F9;
+}
+
+/* Header Section  */
+.upperSection {
+    background-color: #E5EDE8;
+    padding-bottom: 20px;
+}
+
+.header {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    padding: 20px 0;
+}
+
+.logo h2 {
+    font-size: 2rem;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    color: grey;
+}
+
+.userItems a {
+    font-weight: 500;
+}
+
+.searchBar {
+    width: 30%;
+}
+
+.searchBar input {
+    background-color: #DAE1DC;
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    border-color: transparent;
+    padding: 3px 20px;
+}
+
+.navBtn {
+    display: flex;
+    gap: 20px;
+}
+
+.navBtn a {
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 8px;
+}
+
+.proBtn1 a {
+    background-color: #222222;
+    color: white;
+}
+.proBtn1 a:hover {
+    background-color: #222222de;
+}
+
+.proBtn2 a {
+    border: 1px solid #222222;
+    color: black;
+}
+.proBtn2 a:hover {
+    background-color: #222222;
+    color: white;
+}
+
+.upperSecContent {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.upperSecContent p {
+    font-size: 18px;
+}
+
+.dates {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+h1 {
+    font-size: 7rem;
+    padding: 0 300px;
+}
+
+.upperSecAuthor {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.author a, .author p, .author i {
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.author p:hover {color: grey;}
+
+.author p {
+    border: solid black;
+    border-width: 0 0 1px 0;
+    padding-bottom: 3px;
+}
+
+.siteOfTheDay {
+    background-color: black;
+    padding: 50px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.sotdImage img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.sotdBG {
+    background-image: url("./bg2.webp");
+    border-radius: 8px;
+    padding: 100px 80px;
+}
+
+/* Header Section End */
+
+/* Nominie Sectiom  */
+.nominiees {
+    text-align: center;
+    padding: 80px 0;
+}
+
+h2 {
+    font-size: 8rem;
+}
+
+.latestSites {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    padding: 0 50px;
+}
+
+.nominiees p {
+    font-size: 20px;
+}
+
+.sites {
+    padding: 0 10px;
+    width: 30%;
+}
+
+.sites img {
+    width: 100%;
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+.sitesData {
+    float: left;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sitesData a {
+    text-decoration: none;
+    color: black;
+}
+
+.siteUrl {
+    border: black solid;
+    border-width: 0 0 1px 0;
+}
+
+.viewNominees {
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.viewNominees a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.viewNominees a:hover {
+    color: grey;
+}
+/* Nominie Section End  */
+
+/* Winner Sections Start  */
+.winnersSection {padding: 20px 0 80px 0;}
+.winnersUpperSec {padding-left: 100px;}
+.winnersUpperSec p {font-size: 20px;}
+
+h3 {font-size: 3rem;}
+/* Winner Sections End  */
+
+/* Academy Section  */
+.academyCards {
+    display: flex;
+    gap: 1%;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.courcesCard {
+    width: 21%;
+}
+
+.courseData {
+    padding: 20px;
+}
+
+.course img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.course {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.teacher {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border: rgba(0, 0, 0, 0.151) solid;
+    border-width: 1px 0;
+    margin: 30px 0;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.score p {
+    border-bottom: 3px solid yellow;
+    padding-bottom: 3px;
+}
+/* Academy Section End  */
+
+/* Collection Section  */
+.collectionsite {margin: 50px 50px 50px -50px;}
+
+.colSites {
+    width: 50%;
+}
+/* Collection Section End  */
+
+/* Market Section  */
+.marketArea {padding: 20px 50px;}
+.marketCard {width: 30%;}
+/* Market Section End  */
+
+/* Before Footer Section  */
+.beforFooter {
+    display: flex;
+    gap: 20px;
+    padding: 0 50px 50px 50px;
+    color: white;
+    margin: 0 50px;
+    justify-content: center;
+}
+
+.work {
+    background-image: url("./work.jpg");
+    background-position: center;
+    background-repeat: no-repeat;background-size: cover;
+    padding: 80px 50px 180px 50px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.member {
+    background-image: url("./member.jpg");
+    background-position: center;
+    background-repeat: no-repeat;background-size: cover;
+}
+
+.work p {
+    padding-bottom: 40px;
+    font-size: 18px ;
+}
+
+.work h2 {
+    font-size: 3rem;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.work a {
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid white;
+    padding: 20px 40px;
+}
+.work a:hover {
+    background-color: white;
+    color: black;
+}
+/* Before Footer Section End  */
+
+/* Footer Section  */
+.footer {
+    padding: 50px;
+}
+
+.footer h2 {
+    padding: 100px 0 2% 3%;
+}
+
+.footerItems {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fItems {
+    width: 15%;
+}
+
+.fItems ul {
+    list-style-type: none;
+}
+
+.fItems li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.fItems a:hover {
+    color: grey;
+}
+
+.nextItems {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextC {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    background-color: white;
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+
+.nextC a {
+    text-decoration: none;
+    color: black;
+    padding-bottom: 2px;
+    border: yellow solid;
+    border-width: 0 0 3px 0;
+}
+/* Footer Section End  */
+
+/* Footer Credit Section */
+.footerCredit p {
+    text-align: center;
+    color: grey;
+    border-top: 1px grey solid;
+    padding-top: 10px;
+}
+    /* Footer Credit Section End  */
+
+@media screen and (max-width: 1300px) {
+    .navBtn {display: none;}
+
+    h1 {font-size: 55px;}
+    
+    .sitesData p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1040px) {
+    .sitesData p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    
+    .userItems {display: none;}
+
+    .academyCards {padding: 50px;}
+    .courcesCard {width: 50%;}
+    .tabHide {display: none;}
+
+    .sitesData {
+        font-size: 12px;
+    }
+
+    h1 {font-size: 3rem;
+        margin-left: -50px;
+    }
+}
+
+
+@media screen and (max-width: 568px) {
+    /* Header Section */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {margin-bottom: 10px;}
+
+    .menu {
+        gap: 15px;
+        margin-left: -45px;
+    }
+
+    .searchBar {
+        width: 350px;
+        margin-left: -45px;
+    }
+
+    .searchBar input {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .userItems, .navBtn {display: none;}
+
+    h1 {
+        font-size: 2rem;
+        padding: 15px 80px;
+        margin-left: 5px;
+    }
+
+    .author p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .siteOfTheDay {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .sotdBG {
+        padding: 40px 30px;
+    }
+
+
+    /* Header Section End */
+
+    /* Nominie Section */
+
+    h2 {font-size: 2rem;}
+
+    .nominiees p {font-size: 18px;}
+
+    .latestSites {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        margin-left: -20px;
+    }
+
+    .nominieSites {
+        margin-left: -45px;
+    }
+
+    .sites img {
+        width: 100%;
+        padding-bottom: 3px;
+    }
+
+    .sites {
+        padding: 0 10px 20px 10px;
+        width: 100%;
+    }
+
+    .sitesData p {
+        font-size: 16px;
+    }
+
+    .viewNominees {
+        padding: 40px 0 0 0;
+        gap: 5px;
+    }
+
+    .viewNominees p, .viewNominees i, .viewNominees a {
+        font-size: 16px;
+    }
+    /* Nominie Section End  */
+
+    /* Winner Sections Start  */
+    .latestSites {
+        width: 100%;
+    }
+    .latestSites img {
+        width: 95%;
+        margin-left: -30px;
+    }
+
+    .winnersUpperSec {
+        padding: 0 10px;
+    }
+
+    h3 {font-size: 2rem}
+
+    .mobHide {display: none;}
+    /* Winner Sections End  */
+
+    /* Academy Section  */
+    .academyCards {
+        flex-direction: column;
+        gap: 20px;
+        padding: 50px 10px;
+    }
+
+    .courcesCard {width: 100%;}
+    /* Academy Section End  */
+
+    /* Collection Section */
+    /* Collection Section End  */
+
+    /* Before Footer  */
+    .beforFooter {
+        flex-direction: column;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .work {
+        padding: 50px 0px 70px 50px;
+        width: auto;
+    }
+
+    .work h2 {
+        padding: 0 50px 40px 0;
+        font-size: 2rem;
+    }
+    /* Before Footer Section End  */
+
+    /* Footer Section  */
+    .footer {
+        padding-left: 0;
+        align-items: center;
+    }
+
+    .footer h2 {
+        padding-left: 12%;
+    }
+
+    .footerItems {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .fItems {
+        width: 100%;
+    }
+
+    .nextItems {
+        display: none;
+    }
+    /* Footer Section End  */
+
+    /* Footer Credit Section */
+    /* Footer Credit Section End  */
+}

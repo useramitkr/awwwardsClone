@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+    /* Header Section */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {margin-bottom: 10px;}
+
+    .menu {
+        gap: 15px;
+        margin-left: -45px;
+    }
+
+    .searchBar {
+        width: 350px;
+        margin-left: -45px;
+    }
+
+    .searchBar input {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .userItems, .navBtn {display: none;}
+
+    h1 {
+        font-size: 2rem;
+        padding: 15px 80px;
+    }
+
+    .author p {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .siteOfTheDay {
+        padding: 10px;
+        margin: 10px;
+    }
+    
+    .sotdBG {
+        padding: 40px 30px;
+    }
+
+
+    /* Header Section End */
+}
